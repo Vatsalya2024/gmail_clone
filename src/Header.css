@@ -1,0 +1,86 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px;
+  height: 48px;
+  background-color: #f1f3f4;
+  position: sticky;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+.header__logoMenuIcon {
+  color: black;
+  width: 80px;
+  padding-left: 12px;
+  height: 20px;
+  padding-right: 20px;
+  
+}
+.header__logoMenuIcon:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+}
+.header__search {
+  display: flex;
+  align-items: center;
+  background-color: #e8f0fe;
+  border-radius: 10px;
+  height: 36px;
+  width: 400px;
+}
+
+.header__searchIcon {
+  margin-right: 4px;
+  padding: 2px;
+  color: gray;
+}
+.header__searchTune {
+  padding: 2px;
+  color: gray;
+}
+.header__searchIcon:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+}
+.header__searchTune:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.header__search > input {
+  flex: 1;
+  margin-right: 4px;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.header__status {
+  display: flex;
+  align-items: center;
+  background-color: #e8f0fe;
+  border-radius: 8px;
+  height: 36px;
+}
+
+.header__widgets {
+  display: flex;
+  align-items: center;
+}
+.header__widgets1 {
+  color: gray;
+  padding: 2px;
+}
+.header__widgets1:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+}
+.header__widgetsAvatar {
+  padding: 2px;
+}
+.headerStatus__icon {
+  color: #4caf50;
+}

@@ -1,0 +1,9 @@
+.sidebar{
+    
+    flex:0.1;
+    height: 100vh;
+    padding-left: 8px;
+    border-right: 1px solid #e8f0fe;
+    background-color: #e8f0fe;
+    
+}

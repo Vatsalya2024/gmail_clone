@@ -1,0 +1,14 @@
+.sidebarOption{
+    padding-top: 50px;
+    padding-bottom: 32px;
+    padding-left: 10px;
+}
+.sidebarOption__icons{
+    padding-left: 4px;
+}
+.sidebarOption__text:hover{
+    color: lightgray;
+}
+.sidebarOption__icons:hover{
+     color: lightgray;
+}
