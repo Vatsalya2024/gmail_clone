@@ -1,11 +1,20 @@
 import React from "react";
 import "./SecondSidebarOption.css";
 
-function SecondSidebarOption({ Icon, text,selected }) {
+function SecondSidebarOption({ Icon, text,  iconFirst}) {
   return (
-    <div className={`secondSidebarOption ${selected &&"selected"}`}>
-     <Icon/>
-      <h4>{text}</h4>
+    <div className="secondSidebarOption">
+      {iconFirst ? (
+        <>
+          <Icon />
+          <h4>{text}</h4>
+        </>
+      ) : (
+        <>
+          <h4>{text}</h4>
+          <Icon />
+        </>
+      )}
     </div>
   );
 }

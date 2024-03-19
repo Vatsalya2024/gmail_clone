@@ -1,0 +1,29 @@
+.secondHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-top:16px;
+}
+.secondHeader__first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 4px solid blue;
+    color: blue;
+
+}
+.secondHeader__second{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: grey;
+
+}
+.secondHeader__third{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: grey;
+
+}

@@ -1,4 +1,29 @@
 .secondSidebar{
     flex:0.2;
-    border-right: 1px solid black;
+    border-right: 1px solid #ebf0f8;;
+    background-color: #ebf0f8;
+}
+.secondSidebar__compose{
+    padding: 50px;
+    
+}
+.secondSidebar__composeIcon{
+    background-color: #b6c5e1;
+    border-radius: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   
+}
+
+.secondSidebar__textOptions{
+    padding-left: 70px;
+  
+}
+.secondSidebar__WidgetTitle{
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.secondSidebar__WidgetComponent{
+    padding-left: 70px;
 }
